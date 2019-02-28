@@ -9,7 +9,7 @@ public class WriteToFile {
 	{
 		try {
             BufferedWriter bw = new BufferedWriter(new FileWriter(path));
-            bw.write("hello");   //Ð´ÈëcharÊý×é
+            bw.write("hello");   //Write "hello" to the file
             bw.close();
         } catch (IOException e1) {
             // TODO Auto-generated catch block
