@@ -1,23 +1,23 @@
 # Calc_Demo
-计算器示例项目，向result.txt中写入“hello”，演示文件层次结构
+Calculator example project to write "hello" to result.txt and demonstrate the file hierarchy.
 
-java源文件全部放在 src文件中
+The Java source files are all in the src folder.
 
-java字节码文件全部放在 bin文件中
+The Java bytecode files are all in the bin folder.
 
-run.bat为自动运行测试脚本，使用其它操作系统的同学请自行编写脚本运行程序
+The run.bat is to run the test script automatically. Students using other operating systems should write the script to run the program by themselves.
 
-### 文件解释：
+### File explaination:
 
     /src
-	    Main.java (主程序，可以从命令行接收参数)
-	    WriteToFile.java (向文件中写入“hello”)
+	    Main.java (Main program which can receive parameters from the command line)
+	    WriteToFile.java (Write "hello" to the file)
     /bin
-	    Main.class(字节码文件)
-	    WriteToFile.class(字节码文件)
-    /run.bat(自动编译运行全部工程的脚本文件)
-    /result.txt（运行run.bat后生成的文件）
+	    Main.class(Bytecode file)
+	    WriteToFile.class(Bytecode file)
+    /run.bat(Automatically compile the script files that run all the projects)
+    /result.txt（The file generated after running run.bat）
     
-### 运行方式：
+### Operation mode:
 
-在命令行中运行run.bat文件，所有java文件自动编译运行
+Run the run.bat file on the command line, and all the Java files are compiled and run automatically.
